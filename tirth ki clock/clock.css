@@ -1,0 +1,52 @@
+head{
+    background-color: brown;
+    color: crimson;
+}
+
+body{
+    background-color: blue;
+}
+p{
+    font-size: 50px;
+    background-color: blanchedalmond;
+    color: black;
+}
+#clockContainer{
+margin: auto;
+position: relative;
+height: 40vw;
+width: 40vw;
+background:url(hi.png);
+background-size: 100%;
+}
+#hour,#minute,#second{
+position: absolute;
+transform-origin: bottom;
+background-color: black;
+}
+#hour{
+    height: 25%;
+    width: 3%;
+    top: 25%;
+    left: 50%;
+    opacity: 0.8;
+    
+}
+#minute{
+    height: 25%;
+    width: 1.5%;
+    top: 25%;
+    left: 50%;
+    opacity: 0.8;
+}
+
+#second{
+    height: 25%;
+    width: 0.5%;
+    top: 25%;
+    left: 50%;
+    opacity: 0.8;
+}
+
+
+
